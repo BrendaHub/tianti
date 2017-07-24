@@ -175,23 +175,28 @@ jc.uiExtend("footer", {
         html += '<div class="container">';
         html += '<div class="row">';
         html += '<div class="col-md-5 col-sm-12">';
-        html += '<h4>关于 天梯</h4>';
-        html += '<p class="mt20"><i class="icon"></i>地址：广东省广州市天河区五山路381号</p>'
-        html += '<p><i class="icon"></i>邮箱：xuzhexu@139.com</p>'
+        html += '<h4>关于 北京中诚天下投资顾问有限公司</h4>';
+        html += '<p class="mt20"><i class="icon"></i>地址：北京市丰台区广安路9号国投财富广场2号楼16层</p>';
+        html += '<p><i class="icon"></i>邮箱：zctx@zctouhang.com</p>';
+        html += '<p><i class="icon"></i>电话：010-63799892/010-63252893  传真：010-63799892</p>';
         html += '</div>';
 
         html += '<div class="col-md-3 col-sm-12">';
-        html += '<h4>网站链接</h4>';
+        html += '<h4>友情链接</h4>';
         html += '<ul class="list-unstyled list-inline">';
 
 
-        for (var i = 0, l = data.length; i < l; i++) {
-            var curData = data[i];
-            var curDataId = curData.id;
-            var curDataName = curData.name;
-            html += '<li><a onclick="window.router(\'menuAndTextlist\',{rootColumnId:\'' + (curDataId) + '\'},true)"  href="javascript:;" target="_blank">' + curDataName + '</a></li>';
-        }
-       
+        // for (var i = 0, l = data.length; i < l; i++) {
+        //     var curData = data[i];
+        //     var curDataId = curData.id;
+        //     var curDataName = curData.name;
+        //     html += '<li><a onclick="window.router(\'menuAndTextlist\',{rootColumnId:\'' + (curDataId) + '\'},true)"  href="javascript:;" target="_blank">' + curDataName + '</a></li>';
+        // }
+        html += '<li><a href="http://www.cs.com.cn/" target="_blank">中证网</a></li>';
+        html += '<li><a href="http://www.cninfo.com.cn/cninfo-new/index" target="_blank">巨潮网</a></li>';
+        html += '<li><a href="http://www.circ.gov.cn/web/site0/" target="_blank">保监会</a></li>';
+        html += '<li><a href="http://www.csrc.gov.cn/pub/newsite/" target="_blank">证监会</a></li>';
+        html += '<li><a href="http://www.sasac.gov.cn/" target="_blank">国资委</a></li>';
 
 
         html += '</ul>';
@@ -199,8 +204,8 @@ jc.uiExtend("footer", {
 
         html += '<div class="col-md-2 col-sm-12">';
         html += '<div class="mt20 text-center">';
-        html += '<img style="width:120px;" src="../../static/images/code_1.png">';
-        html += '<p>(微信打赏)</p>';
+        html += '<img style="width:120px;" src="../../static/images/erwei.jpg">';
+        html += '<p>微信公众号：zctxtouhang</p>';
         html += '</div>';
         html += '</div>';
 
@@ -208,8 +213,8 @@ jc.uiExtend("footer", {
         html += '</div>';
         html += '<div class="copy-right">';
         html += '<span>© 2013-2017</span>';
-        html += '版权所有 天梯 Copyright © 1998 - 2017 Tencent. All Rights Reserved';
-        html += '<span>粤公网安备11010802014853</span>';
+        html += '版权所有 中诚天下 Copyright © 1998 - 2017 zctx. All Rights Reserved';
+        html += '<span>京ICP备10212089号</span>';
         html += '</div>';
         html += '</div>';
 
